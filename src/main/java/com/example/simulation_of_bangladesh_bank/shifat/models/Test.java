@@ -6,6 +6,7 @@ import java.time.LocalDate;
 public class Test {
     String field1;
     LocalDate date;
+    int price;
 
 
 }
