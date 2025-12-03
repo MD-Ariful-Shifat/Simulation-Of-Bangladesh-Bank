@@ -6,9 +6,9 @@ import javafx.scene.control.*;
 public class ManageNational_InterestRatesController
 {
     @javafx.fxml.FXML
-    private TableColumn rateTypeColumn;
+    private TableColumn<ManageNational_InterestRates, String> rateTypeColumn;
     @javafx.fxml.FXML
-    private TableColumn percentageColumn;
+    private TableColumn<ManageNational_InterestRates, String> percentageColumn;
     @javafx.fxml.FXML
     private TextField rateID3;
     @javafx.fxml.FXML
@@ -16,19 +16,19 @@ public class ManageNational_InterestRatesController
     @javafx.fxml.FXML
     private TextField percentageID1;
     @javafx.fxml.FXML
-    private ComboBox rateType1;
+    private ComboBox<String> rateType1;
     @javafx.fxml.FXML
     private TextField rateID1;
     @javafx.fxml.FXML
-    private ComboBox rateType2;
+    private ComboBox<String> rateType2;
     @javafx.fxml.FXML
     private TextField rateID2;
     @javafx.fxml.FXML
-    private TableColumn effectiveDateColumn;
+    private TableColumn<ManageNational_InterestRates, String> effectiveDateColumn;
     @javafx.fxml.FXML
-    private TableColumn rateColumn;
+    private TableColumn<ManageNational_InterestRates, String> rateColumn;
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<ManageNational_InterestRates> tableID;
     @javafx.fxml.FXML
     private DatePicker effectiveDate;
 

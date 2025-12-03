@@ -6,7 +6,7 @@ import javafx.scene.control.*;
 public class ManageAnnualPerformanceReportsController
 {
     @javafx.fxml.FXML
-    private TableColumn yearColumn;
+    private TableColumn<ManageAnnualPerformanceReports, String> yearColumn;
     @javafx.fxml.FXML
     private TextField reportID1;
     @javafx.fxml.FXML
@@ -14,15 +14,15 @@ public class ManageAnnualPerformanceReportsController
     @javafx.fxml.FXML
     private TextField reportID3;
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<ManageAnnualPerformanceReports> tableID;
     @javafx.fxml.FXML
-    private TableColumn bankColumn;
+    private TableColumn<ManageAnnualPerformanceReports, String> bankColumn;
     @javafx.fxml.FXML
-    private TableColumn reportColumn;
+    private TableColumn<ManageAnnualPerformanceReports, String> reportColumn;
     @javafx.fxml.FXML
     private TextField bankName2;
     @javafx.fxml.FXML
-    private TableColumn remarkColumn;
+    private TableColumn<ManageAnnualPerformanceReports, String> remarkColumn;
     @javafx.fxml.FXML
     private TextField bankName1;
     @javafx.fxml.FXML

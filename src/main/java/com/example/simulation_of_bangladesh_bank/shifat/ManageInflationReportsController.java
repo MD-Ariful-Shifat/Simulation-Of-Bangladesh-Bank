@@ -6,17 +6,17 @@ import javafx.scene.control.*;
 public class ManageInflationReportsController
 {
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<ManageInflationReports> tableID;
     @javafx.fxml.FXML
-    private TableColumn yearColumn;
+    private TableColumn<ManageInflationReports, String> yearColumn;
     @javafx.fxml.FXML
-    private TableColumn inflationColumn;
+    private TableColumn<ManageInflationReports, String> inflationColumn;
     @javafx.fxml.FXML
     private TextField inflationID1;
     @javafx.fxml.FXML
     private TextField inflationID2;
     @javafx.fxml.FXML
-    private TableColumn reportColumn;
+    private TableColumn<ManageInflationReports, String> reportColumn;
     @javafx.fxml.FXML
     private DatePicker yearID2;
     @javafx.fxml.FXML
@@ -26,15 +26,15 @@ public class ManageInflationReportsController
     @javafx.fxml.FXML
     private TextField reportID2;
     @javafx.fxml.FXML
-    private ComboBox statusID;
+    private ComboBox<String> statusID;
     @javafx.fxml.FXML
     private TextField reportID3;
     @javafx.fxml.FXML
-    private TableColumn statusColumn;
+    private TableColumn<ManageInflationReports, String> statusColumn;
     @javafx.fxml.FXML
     private TextArea commentID;
     @javafx.fxml.FXML
-    private TableColumn commentColumn;
+    private TableColumn<ManageInflationReports, String> commentColumn;
 
     @javafx.fxml.FXML
     public void initialize() {

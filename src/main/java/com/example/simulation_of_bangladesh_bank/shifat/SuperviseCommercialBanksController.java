@@ -9,9 +9,9 @@ import javafx.scene.control.TextField;
 public class SuperviseCommercialBanksController
 {
     @javafx.fxml.FXML
-    private TableColumn licenseColumn;
+    private TableColumn<SuperviseCommercialBanks, String> licenseColumn;
     @javafx.fxml.FXML
-    private TableColumn typeColumn;
+    private TableColumn<SuperviseCommercialBanks, String> typeColumn;
     @javafx.fxml.FXML
     private TextField nameID2;
     @javafx.fxml.FXML
@@ -19,29 +19,29 @@ public class SuperviseCommercialBanksController
     @javafx.fxml.FXML
     private TextField bankId2;
     @javafx.fxml.FXML
-    private TableColumn nameColumn;
+    private TableColumn<SuperviseCommercialBanks, String> nameColumn;
     @javafx.fxml.FXML
-    private ComboBox statusID;
+    private ComboBox<String> statusID;
     @javafx.fxml.FXML
     private TextField bankId3;
     @javafx.fxml.FXML
     private TextField bankId4;
     @javafx.fxml.FXML
-    private TableColumn statusColumn;
+    private TableColumn<SuperviseCommercialBanks, String> statusColumn;
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<SuperviseCommercialBanks> tableID;
     @javafx.fxml.FXML
-    private TableColumn bankColumn;
+    private TableColumn<SuperviseCommercialBanks, String> bankColumn;
     @javafx.fxml.FXML
     private TextField nameID;
     @javafx.fxml.FXML
-    private ComboBox typeID;
+    private ComboBox<String> typeID;
     @javafx.fxml.FXML
-    private ComboBox typeID2;
+    private ComboBox<String> typeID2;
     @javafx.fxml.FXML
     private TextField licenseID;
     @javafx.fxml.FXML
-    private ComboBox statusID2;
+    private ComboBox<String> statusID2;
 
     @javafx.fxml.FXML
     public void initialize() {

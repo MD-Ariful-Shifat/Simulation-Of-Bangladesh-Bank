@@ -9,11 +9,11 @@ import javafx.scene.control.TextField;
 public class ManagePenaltyRecordsController
 {
     @javafx.fxml.FXML
-    private TableColumn penaltyColumn;
+    private TableColumn<ManagePenaltyRecords, String> penaltyColumn;
     @javafx.fxml.FXML
-    private TableColumn reasonColumn;
+    private TableColumn<ManagePenaltyRecords, String> reasonColumn;
     @javafx.fxml.FXML
-    private TableColumn amountColumn;
+    private TableColumn<ManagePenaltyRecords, String> amountColumn;
     @javafx.fxml.FXML
     private TextField penaltyID1;
     @javafx.fxml.FXML
@@ -27,15 +27,15 @@ public class ManagePenaltyRecordsController
     @javafx.fxml.FXML
     private TextField amountID1;
     @javafx.fxml.FXML
-    private TableColumn nameColumn;
+    private TableColumn<ManagePenaltyRecords, String> nameColumn;
     @javafx.fxml.FXML
     private TextField reasonID;
     @javafx.fxml.FXML
     private DatePicker dateID;
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<ManagePenaltyRecords> tableID;
     @javafx.fxml.FXML
-    private TableColumn dateColumn;
+    private TableColumn<ManagePenaltyRecords, String> dateColumn;
 
     @javafx.fxml.FXML
     public void initialize() {

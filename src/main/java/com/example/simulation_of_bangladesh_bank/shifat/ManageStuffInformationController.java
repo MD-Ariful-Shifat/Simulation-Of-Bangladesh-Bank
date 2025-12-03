@@ -9,7 +9,7 @@ import javafx.scene.control.TextField;
 public class ManageStuffInformationController
 {
     @javafx.fxml.FXML
-    private TableColumn positionColumn;
+    private TableColumn<ManageStaffInformation, String> positionColumn;
     @javafx.fxml.FXML
     private TextField departmentID;
     @javafx.fxml.FXML
@@ -23,25 +23,25 @@ public class ManageStuffInformationController
     @javafx.fxml.FXML
     private TextField employeeID1;
     @javafx.fxml.FXML
-    private TableColumn nameColumn;
+    private TableColumn<ManageStaffInformation, String> nameColumn;
     @javafx.fxml.FXML
-    private ComboBox positionID;
+    private ComboBox<String> positionID;
     @javafx.fxml.FXML
-    private TableColumn statusColumn;
+    private TableColumn<ManageStaffInformation, String> statusColumn;
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<ManageStaffInformation> tableID;
     @javafx.fxml.FXML
-    private TableColumn employeeColumn;
+    private TableColumn<ManageStaffInformation, String> employeeColumn;
     @javafx.fxml.FXML
-    private TableColumn departmentColumn;
+    private TableColumn<ManageStaffInformation, String> departmentColumn;
     @javafx.fxml.FXML
-    private TableColumn salaryColumn;
+    private TableColumn<ManageStaffInformation, String> salaryColumn;
     @javafx.fxml.FXML
-    private ComboBox statusID1;
+    private ComboBox<String> statusID1;
     @javafx.fxml.FXML
     private TextField salaryID;
     @javafx.fxml.FXML
-    private ComboBox statusID2;
+    private ComboBox<String> statusID2;
 
     @javafx.fxml.FXML
     public void initialize() {

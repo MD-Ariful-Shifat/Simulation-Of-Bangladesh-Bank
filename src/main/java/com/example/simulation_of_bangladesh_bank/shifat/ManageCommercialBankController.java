@@ -18,9 +18,9 @@ public class ManageCommercialBankController
     private List<ManageCommercialBank> manageCommercialBankArrayList = new ArrayList<>();
     private File file = new File( "data/MangeCommercialBank.bin");
     @javafx.fxml.FXML
-    private TableColumn licenseColumn;
+    private TableColumn<ManageCommercialBank, String> licenseColumn;
     @javafx.fxml.FXML
-    private TableColumn typeColumn;
+    private TableColumn<ManageCommercialBank, String> typeColumn;
     @javafx.fxml.FXML
     private TextField nameID2;
     @javafx.fxml.FXML
@@ -28,27 +28,27 @@ public class ManageCommercialBankController
     @javafx.fxml.FXML
     private TextField bankId2;
     @javafx.fxml.FXML
-    private TableColumn nameColumn;
+    private TableColumn<ManageCommercialBank, String> nameColumn;
     @javafx.fxml.FXML
-    private ComboBox statusID;
+    private ComboBox<String> statusID;
     @javafx.fxml.FXML
     private TextField bankId3;
     @javafx.fxml.FXML
     private TextField bankId4;
     @javafx.fxml.FXML
-    private TableColumn statusColumn;
+    private TableColumn<ManageCommercialBank, String> statusColumn;
     @javafx.fxml.FXML
-    private TableColumn bankColumn;
+    private TableColumn<ManageCommercialBank, String> bankColumn;
     @javafx.fxml.FXML
     private TextField nameID;
     @javafx.fxml.FXML
-    private ComboBox typeID;
+    private ComboBox<String> typeID;
     @javafx.fxml.FXML
-    private ComboBox typeID2;
+    private ComboBox<String> typeID2;
     @javafx.fxml.FXML
     private TextField licenseID;
     @javafx.fxml.FXML
-    private ComboBox statusID2;
+    private ComboBox<String> statusID2;
 
 
     @javafx.fxml.FXML

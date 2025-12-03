@@ -8,11 +8,11 @@ public class ManageInspectionSchedulesController
     @javafx.fxml.FXML
     private DatePicker inspectionDate2;
     @javafx.fxml.FXML
-    private ComboBox StatusID2;
+    private ComboBox<String> StatusID2;
     @javafx.fxml.FXML
-    private ComboBox StatusID1;
+    private ComboBox<String> StatusID1;
     @javafx.fxml.FXML
-    private TableColumn inspectionColumn;
+    private TableColumn<ManageInspectionSchedules, String> inspectionColumn;
     @javafx.fxml.FXML
     private TextField bankName2;
     @javafx.fxml.FXML
@@ -24,17 +24,17 @@ public class ManageInspectionSchedulesController
     @javafx.fxml.FXML
     private TextField inspectionID1;
     @javafx.fxml.FXML
-    private TableColumn inspectorNameColumn;
+    private TableColumn<ManageInspectionSchedules, String> inspectorNameColumn;
     @javafx.fxml.FXML
-    private TableColumn nameColumn;
+    private TableColumn<ManageInspectionSchedules, String> nameColumn;
     @javafx.fxml.FXML
-    private TableColumn statusColumn;
+    private TableColumn<ManageInspectionSchedules, String> statusColumn;
     @javafx.fxml.FXML
     private TextField inspectionID3;
     @javafx.fxml.FXML
-    private TableView tableview;
+    private TableView<ManageInspectionSchedules> tableview;
     @javafx.fxml.FXML
-    private TableColumn dateColumn;
+    private TableColumn<ManageInspectionSchedules, String> dateColumn;
     @javafx.fxml.FXML
     private DatePicker inspectionDate;
     @javafx.fxml.FXML

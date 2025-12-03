@@ -6,9 +6,9 @@ import javafx.scene.control.*;
 public class ManageBankComplianceReportsController
 {
     @javafx.fxml.FXML
-    private TableColumn summaryColumn;
+    private TableColumn<ManageBankComplianceReports, String> summaryColumn;
     @javafx.fxml.FXML
-    private TableColumn reportColumn;
+    private TableColumn<ManageBankComplianceReports, String> reportColumn;
     @javafx.fxml.FXML
     private TextField bankName2;
     @javafx.fxml.FXML
@@ -16,7 +16,7 @@ public class ManageBankComplianceReportsController
     @javafx.fxml.FXML
     private DatePicker dateID1;
     @javafx.fxml.FXML
-    private TableColumn submissionDateColumn;
+    private TableColumn<ManageBankComplianceReports, String> submissionDateColumn;
     @javafx.fxml.FXML
     private DatePicker dateID2;
     @javafx.fxml.FXML
@@ -24,15 +24,15 @@ public class ManageBankComplianceReportsController
     @javafx.fxml.FXML
     private TextField reportID2;
     @javafx.fxml.FXML
-    private ComboBox statusID;
+    private ComboBox<String> statusID;
     @javafx.fxml.FXML
     private TextField reportID3;
     @javafx.fxml.FXML
-    private TableColumn statusColumn;
+    private TableColumn<ManageBankComplianceReports, String> statusColumn;
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<ManageBankComplianceReports> tableID;
     @javafx.fxml.FXML
-    private TableColumn bankColumn;
+    private TableColumn<ManageBankComplianceReports, String> bankColumn;
     @javafx.fxml.FXML
     private TextArea summaryID;
 

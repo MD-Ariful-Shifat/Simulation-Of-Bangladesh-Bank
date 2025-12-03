@@ -6,15 +6,15 @@ import javafx.scene.control.*;
 public class ManageForeignCurrencyController
 {
     @javafx.fxml.FXML
-    private ComboBox currencyType1;
+    private ComboBox<String> currencyType1;
     @javafx.fxml.FXML
-    private ComboBox currencyType2;
+    private ComboBox<String> currencyType2;
     @javafx.fxml.FXML
-    private TableColumn amountColumn;
+    private TableColumn<ManageForeignCurrency, String> amountColumn;
     @javafx.fxml.FXML
-    private TableColumn reserveColumn;
+    private TableColumn<ManageForeignCurrency, String> reserveColumn;
     @javafx.fxml.FXML
-    private TableColumn updatedDateColumn;
+    private TableColumn<ManageForeignCurrency, String> updatedDateColumn;
     @javafx.fxml.FXML
     private TextField amountID1;
     @javafx.fxml.FXML
@@ -22,7 +22,7 @@ public class ManageForeignCurrencyController
     @javafx.fxml.FXML
     private TextField amountID2;
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<ManageForeignCurrency> tableID;
     @javafx.fxml.FXML
     private TextField reserveID3;
     @javafx.fxml.FXML
@@ -30,7 +30,7 @@ public class ManageForeignCurrencyController
     @javafx.fxml.FXML
     private TextField reserveID1;
     @javafx.fxml.FXML
-    private TableColumn currencyTypeColumn;
+    private TableColumn<ManageForeignCurrency, String> currencyTypeColumn;
 
     @javafx.fxml.FXML
     public void initialize() {

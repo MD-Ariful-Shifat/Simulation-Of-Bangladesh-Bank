@@ -9,11 +9,11 @@ import javafx.scene.control.TextField;
 public class ManageLoanRequestsController
 {
     @javafx.fxml.FXML
-    private TableColumn amountColumn;
+    private TableColumn<ManageLoanRequests, String> amountColumn;
     @javafx.fxml.FXML
     private TextField nameID1;
     @javafx.fxml.FXML
-    private TableColumn loanColumn;
+    private TableColumn<ManageLoanRequests, String> loanColumn;
     @javafx.fxml.FXML
     private TextField purposeID1;
     @javafx.fxml.FXML
@@ -25,25 +25,25 @@ public class ManageLoanRequestsController
     @javafx.fxml.FXML
     private TextField loanID2;
     @javafx.fxml.FXML
-    private TableColumn nameColumn;
+    private TableColumn<ManageLoanRequests, String> nameColumn;
     @javafx.fxml.FXML
-    private ComboBox applicationDate1;
+    private ComboBox<String> applicationDate1;
     @javafx.fxml.FXML
-    private TableColumn statusColumn;
+    private TableColumn<ManageLoanRequests, String> statusColumn;
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<ManageLoanRequests> tableID;
     @javafx.fxml.FXML
-    private TableColumn purposeColumn;
+    private TableColumn<ManageLoanRequests, String> purposeColumn;
     @javafx.fxml.FXML
     private TextField loanID3;
     @javafx.fxml.FXML
     private TextField loanID4;
     @javafx.fxml.FXML
-    private ComboBox statusID1;
+    private ComboBox<String> statusID1;
     @javafx.fxml.FXML
-    private TableColumn applicationDateColumn;
+    private TableColumn<ManageLoanRequests, String> applicationDateColumn;
     @javafx.fxml.FXML
-    private ComboBox statusID2;
+    private ComboBox<String> statusID2;
 
     @javafx.fxml.FXML
     public void initialize() {

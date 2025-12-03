@@ -6,11 +6,11 @@ import javafx.scene.control.*;
 public class ManageBankAuditResultsController
 {
     @javafx.fxml.FXML
-    private TableColumn auditDateColumn;
+    private TableColumn<ManageBankAuditResults, String> auditDateColumn;
     @javafx.fxml.FXML
-    private TableColumn auditorNameColumn;
+    private TableColumn<ManageBankAuditResults, String> auditorNameColumn;
     @javafx.fxml.FXML
-    private TableColumn summaryColumn;
+    private TableColumn<ManageBankAuditResults, String> summaryColumn;
     @javafx.fxml.FXML
     private TextField bankName2;
     @javafx.fxml.FXML
@@ -22,13 +22,13 @@ public class ManageBankAuditResultsController
     @javafx.fxml.FXML
     private TextField auditID2;
     @javafx.fxml.FXML
-    private TableColumn auditColumn;
+    private TableColumn<ManageBankAuditResults, String> auditColumn;
     @javafx.fxml.FXML
     private TextField auditID1;
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<ManageBankAuditResults> tableID;
     @javafx.fxml.FXML
-    private TableColumn bankColumn;
+    private TableColumn<ManageBankAuditResults, String> bankColumn;
     @javafx.fxml.FXML
     private TextArea summaryID;
     @javafx.fxml.FXML

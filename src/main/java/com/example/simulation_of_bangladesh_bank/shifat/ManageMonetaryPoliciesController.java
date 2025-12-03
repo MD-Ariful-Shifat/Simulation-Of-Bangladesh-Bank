@@ -10,9 +10,9 @@ public class ManageMonetaryPoliciesController
     @javafx.fxml.FXML
     private TextField policyName1;
     @javafx.fxml.FXML
-    private ComboBox StatusID2;
+    private ComboBox<String> StatusID2;
     @javafx.fxml.FXML
-    private ComboBox StatusID1;
+    private ComboBox<String> StatusID1;
     @javafx.fxml.FXML
     private TextField policyName2;
     @javafx.fxml.FXML
@@ -20,23 +20,23 @@ public class ManageMonetaryPoliciesController
     @javafx.fxml.FXML
     private TextField dateOfImplementation2;
     @javafx.fxml.FXML
-    private TableColumn policyName3;
+    private TableColumn<ManageMonetaryPolicies, String> policyName3;
     @javafx.fxml.FXML
     private TextField policyID3;
     @javafx.fxml.FXML
     private TextField dateOfImplementation1;
     @javafx.fxml.FXML
-    private TableColumn policyID4;
+    private TableColumn<ManageMonetaryPolicies, String> policyID4;
     @javafx.fxml.FXML
-    private TableColumn dateOfImplementation3;
+    private TableColumn<ManageMonetaryPolicies, String> dateOfImplementation3;
     @javafx.fxml.FXML
     private TextField descriptionID2;
     @javafx.fxml.FXML
     private TextField descriptionID1;
     @javafx.fxml.FXML
-    private TableView tableview;
+    private TableView<ManageMonetaryPolicies> tableview;
     @javafx.fxml.FXML
-    private TableColumn statusID3;
+    private TableColumn<ManageMonetaryPolicies, String> statusID3;
 
     @javafx.fxml.FXML
     public void initialize() {

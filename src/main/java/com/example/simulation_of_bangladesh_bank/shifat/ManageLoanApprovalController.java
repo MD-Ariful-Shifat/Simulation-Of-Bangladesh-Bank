@@ -13,19 +13,19 @@ public class ManageLoanApprovalController
     @javafx.fxml.FXML
     private TextField nameID2;
     @javafx.fxml.FXML
-    private TableColumn nameColumn;
+    private TableColumn<ManageLoanApproval, String> nameColumn;
     @javafx.fxml.FXML
-    private TableColumn statusColumn;
+    private TableColumn<ManageLoanApproval, String> statusColumn;
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<ManageLoanApproval> tableID;
     @javafx.fxml.FXML
-    private ComboBox statusID1;
+    private ComboBox<String> statusID1;
     @javafx.fxml.FXML
-    private ComboBox statusID2;
+    private ComboBox<String> statusID2;
     @javafx.fxml.FXML
-    private TableColumn amountColumn;
+    private TableColumn<ManageLoanApproval, String> amountColumn;
     @javafx.fxml.FXML
-    private TableColumn loanColumn;
+    private TableColumn<ManageLoanApproval, String> loanColumn;
     @javafx.fxml.FXML
     private TextField purposeID1;
     @javafx.fxml.FXML
@@ -35,15 +35,15 @@ public class ManageLoanApprovalController
     @javafx.fxml.FXML
     private TextField loanID2;
     @javafx.fxml.FXML
-    private ComboBox applicationDate1;
+    private ComboBox<String> applicationDate1;
     @javafx.fxml.FXML
-    private TableColumn purposeColumn;
+    private TableColumn<ManageLoanApproval, String> purposeColumn;
     @javafx.fxml.FXML
     private TextField loanID3;
     @javafx.fxml.FXML
     private TextField loanID4;
     @javafx.fxml.FXML
-    private TableColumn applicationDateColumn;
+    private TableColumn<ManageLoanApproval, String> applicationDateColumn;
 
     @javafx.fxml.FXML
     public void initialize() {

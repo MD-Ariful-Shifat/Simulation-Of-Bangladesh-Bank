@@ -3,7 +3,7 @@ package com.example.simulation_of_bangladesh_bank.shifat;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-public class ManageLoan implements Serializable {
+public class ManageLoanApproval implements Serializable {
     @javafx.fxml.FXML
     private String loanId;
     private String bankName;
@@ -12,7 +12,7 @@ public class ManageLoan implements Serializable {
     private LocalDate applicationDate;
     private String status;
 
-    public ManageLoan(String status, LocalDate applicationDate, String purpose, int amountRequested, String bankName, String loanId) {
+    public ManageLoanApproval(String status, LocalDate applicationDate, String purpose, int amountRequested, String bankName, String loanId) {
         this.status = status;
         this.applicationDate = applicationDate;
         this.purpose = purpose;

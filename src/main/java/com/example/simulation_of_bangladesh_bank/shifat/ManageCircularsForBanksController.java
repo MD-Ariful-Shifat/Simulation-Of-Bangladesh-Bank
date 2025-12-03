@@ -6,15 +6,15 @@ import javafx.scene.control.*;
 public class ManageCircularsForBanksController
 {
     @javafx.fxml.FXML
-    private TableColumn issueDateColumn;
+    private TableColumn<ManageCircularsForBanks, String> issueDateColumn;
     @javafx.fxml.FXML
-    private TableColumn circularColumn;
+    private TableColumn<ManageCircularsForBanks, String> circularColumn;
     @javafx.fxml.FXML
-    private TableColumn expireDateColumn;
+    private TableColumn<ManageCircularsForBanks, String> expireDateColumn;
     @javafx.fxml.FXML
-    private TableColumn titleColumn;
+    private TableColumn<ManageCircularsForBanks, String> titleColumn;
     @javafx.fxml.FXML
-    private TableColumn statusColumn;
+    private TableColumn<ManageCircularsForBanks, String> statusColumn;
     @javafx.fxml.FXML
     private TextField circularID2;
     @javafx.fxml.FXML
@@ -24,7 +24,7 @@ public class ManageCircularsForBanksController
     @javafx.fxml.FXML
     private TextField circularID3;
     @javafx.fxml.FXML
-    private TableView tableID;
+    private TableView<ManageCircularsForBanks> tableID;
     @javafx.fxml.FXML
     private TextField circularID1;
     @javafx.fxml.FXML
@@ -32,9 +32,9 @@ public class ManageCircularsForBanksController
     @javafx.fxml.FXML
     private DatePicker issueDate;
     @javafx.fxml.FXML
-    private ComboBox statusID1;
+    private ComboBox<String> statusID1;
     @javafx.fxml.FXML
-    private ComboBox statusID2;
+    private ComboBox<String> statusID2;
 
     @javafx.fxml.FXML
     public void initialize() {
