@@ -60,6 +60,14 @@ public class ManageCommercialBankController
         statusColumn.setCellValueFactory(new PropertyValueFactory<>( "status"));
         bankColumn.setCellValueFactory(new PropertyValueFactory<>( "bankId"));
 
+        typeID.getItems().addAll("Public", "Private", "Islamic", "Foreign");
+        statusID.getItems().addAll("Active", "Merged", "Suspended");
+        typeID2.getItems().addAll("Public", "Private", "Islamic", "Foreign");
+        statusID2.getItems().addAll("Active", "Merged", "Suspended");
+
+
+
+
         manageCommercialBankArrayList = BinaryFileHelper.readAllObjects(file);
         tableID.getItems().clear();
         tableID.getItems().addAll(manageCommercialBankArrayList);
