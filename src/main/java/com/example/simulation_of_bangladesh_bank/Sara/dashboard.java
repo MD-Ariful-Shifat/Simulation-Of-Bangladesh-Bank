@@ -1,6 +1,7 @@
 package com.example.simulation_of_bangladesh_bank.Sara;
 
 import java.awt.event.ActionEvent;
+import java.io.IOException;
 
 public class dashboard {
     @Deprecated
@@ -8,7 +9,8 @@ public class dashboard {
     }
 
     @Deprecated
-    public void ExchangeRateManagement(ActionEvent actionEvent) {
+    public void ExchangeRateManagement(ActionEvent actionEvent) throws IOException {
+
     }
 
     @Deprecated

@@ -17,9 +17,9 @@ public class interBanktransPanel {
     @javafx.fxml.FXML
     private Label alertBox;
     @javafx.fxml.FXML
-    private ComboBox cardNameCom;
+    private ComboBox < String> cardNameCom;
     @javafx.fxml.FXML
-    private ComboBox bankNameCom;
+    private ComboBox <String> bankNameCom;
 
     @javafx.fxml.FXML
     public void backButton(ActionEvent actionEvent) {

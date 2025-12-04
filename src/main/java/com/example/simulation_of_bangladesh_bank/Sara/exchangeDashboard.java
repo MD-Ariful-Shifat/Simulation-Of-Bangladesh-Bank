@@ -6,6 +6,7 @@ import javax.swing.table.TableColumn;
 import javax.swing.text.TableView;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.io.IOException;
 
 public class exchangeDashboard {
     @javafx.fxml.FXML
@@ -22,7 +23,8 @@ public class exchangeDashboard {
     private TableView TableView;
 
     @Deprecated
-    public void enterButton(ActionEvent actionEvent) {
+    public void enterButton(ActionEvent actionEvent)  {
+
     }
 
     @Deprecated
@@ -38,10 +40,10 @@ public class exchangeDashboard {
     }
 
     @javafx.fxml.FXML
-    public void backButtonOnAction(ActionEvent actionEvent) {
+    public void backButtonOnAction(ActionEvent actionEvent) throws IOException{
     }
 
     @javafx.fxml.FXML
-    public void enterButtonOnAction(ActionEvent actionEvent) {
+    public void enterButtonOnAction(ActionEvent actionEvent) throws IOException{
     }
 }

@@ -13,8 +13,8 @@
          </font>
       </Label>
       <Button layoutX="50.0" layoutY="110.0" mnemonicParsing="false" onAction="#InterBankTransactionPanelOnAction" text="Inter Bank Transaction Panel" />
-      <Button layoutX="57.0" layoutY="163.0" mnemonicParsing="false" onAction="#ExchangeRateManagementOnAction" prefHeight="26.0" prefWidth="179.0" text="Exchange Rate Management" />
+      <Button layoutX="47.0" layoutY="174.0" mnemonicParsing="false" onAction="#ExchangeRateManagementOnAction" prefHeight="26.0" prefWidth="179.0" text="Exchange Rate Management" />
       <Button layoutX="57.0" layoutY="226.0" mnemonicParsing="false" onAction="#ReportingDashboardOnAction" prefHeight="26.0" prefWidth="159.0" text="Reporting Dashboard" />
-      <Button layoutX="67.0" layoutY="281.0" mnemonicParsing="false" onAction="#ForeignLoginOnAction" prefHeight="26.0" prefWidth="159.0" text="Foreign Log In" />
+      <Button layoutX="57.0" layoutY="276.0" mnemonicParsing="false" onAction="#ForeignLoginOnAction" prefHeight="26.0" prefWidth="159.0" text="Foreign Log In" />
    </children>
 </AnchorPane>
