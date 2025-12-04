@@ -4,6 +4,8 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
+import java.io.IOException;
+
 public class ManageInspectionSchedulesController
 {
     @javafx.fxml.FXML
@@ -59,7 +61,9 @@ public class ManageInspectionSchedulesController
     }
 
     @javafx.fxml.FXML
-    public void signoutOnAction(ActionEvent actionEvent) {
+    public void signoutOnAction(ActionEvent actionEvent) throws IOException {
+        SceneSwitcher.sceneSwitch(actionEvent, "shifat/DirectorofBankingRegulation.fxml", "Sign Out");
+
     }
 
     @javafx.fxml.FXML

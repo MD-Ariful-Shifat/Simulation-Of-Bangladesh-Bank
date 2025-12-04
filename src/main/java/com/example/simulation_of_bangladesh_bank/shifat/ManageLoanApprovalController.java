@@ -7,6 +7,8 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 
+import java.io.IOException;
+
 public class ManageLoanApprovalController
 {
     @javafx.fxml.FXML
@@ -86,7 +88,9 @@ public class ManageLoanApprovalController
     }
 
     @javafx.fxml.FXML
-    public void signOut(ActionEvent actionEvent) {
+    public void signOut(ActionEvent actionEvent) throws IOException {
+        SceneSwitcher.sceneSwitch(actionEvent, "shifat/GovernorDash.fxml", "Sign Out");
+
     }
 
     @Deprecated

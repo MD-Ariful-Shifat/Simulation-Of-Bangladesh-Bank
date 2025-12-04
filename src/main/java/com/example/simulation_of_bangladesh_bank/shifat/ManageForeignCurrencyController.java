@@ -4,6 +4,8 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
+import java.io.IOException;
+
 public class ManageForeignCurrencyController
 {
     @javafx.fxml.FXML
@@ -42,7 +44,9 @@ public class ManageForeignCurrencyController
     }
 
     @javafx.fxml.FXML
-    public void signOut(ActionEvent actionEvent) {
+    public void signOut(ActionEvent actionEvent) throws IOException {
+        SceneSwitcher.sceneSwitch(actionEvent, "shifat/GovernorDash.fxml", "Sign Out");
+
     }
 
     @javafx.fxml.FXML

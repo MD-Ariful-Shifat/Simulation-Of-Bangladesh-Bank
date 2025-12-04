@@ -4,6 +4,11 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 public class ManageCircularsNoticesController
 {
     @javafx.fxml.FXML
@@ -36,6 +41,8 @@ public class ManageCircularsNoticesController
     private ComboBox<String> statusID1;
     @javafx.fxml.FXML
     private ComboBox<String> statusID2;
+    private List<ManageCircularsNotices> manageCircularsNoticesArrayList = new ArrayList<>();
+    private File file = new File( "data/ManageCircularsNotices.bin");
 
     @javafx.fxml.FXML
     public void initialize() {
@@ -46,14 +53,30 @@ public class ManageCircularsNoticesController
         expireDateColumn.setCellValueFactory(new PropertyValueFactory<>("expireDate"));
         statusColumn.setCellValueFactory(new PropertyValueFactory<>("status"));
 
+        manageCircularsNoticesArrayList = BinaryFileHelper.readAllObjects(file);
+        tableID.getItems().clear();
+        tableID.getItems().addAll(manageCircularsNoticesArrayList);
+
     }
 
     @javafx.fxml.FXML
     public void publishOnClick(ActionEvent actionEvent) {
+        ManageCircularsNotices manageCircularsNotices = new ManageCircularsNotices(
+                circularID1.getText(),
+                titleID1.getText(),
+                issueDate.getValue(),
+                expireDate.getValue(),
+                statusID1.getValue()
+    );
+
+        manageCircularsNoticesArrayList.add(manageCircularsNotices);
+        BinaryFileHelper.writeAllObjects(file, manageCircularsNoticesArrayList);
     }
 
     @javafx.fxml.FXML
-    public void signOut(ActionEvent actionEvent) {
+    public void signOut(ActionEvent actionEvent) throws IOException {
+        SceneSwitcher.sceneSwitch(actionEvent, "shifat/GovernorDash.fxml", "Sign Out");
+
     }
 
     @javafx.fxml.FXML
