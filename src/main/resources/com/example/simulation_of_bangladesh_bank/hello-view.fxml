@@ -8,6 +8,7 @@
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.simulation_of_bangladesh_bank.HelloController">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
   </padding>
@@ -16,11 +17,17 @@
   <Button text="Hello!" onAction="#onHelloButtonClick"/>
 </VBox>
 =======
+=======
+>>>>>>> ece2fd2004e093364285ef4351e5bb86ec19952b
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
     <Label fx:id="welcomeText"/>
     <Button text="Hello!" onAction="#onHelloButtonClick"/>
+<<<<<<< HEAD
 </VBox>
 >>>>>>> 38e97a1b5ac1e4b1f63fb0852c111d29fe17f190
+=======
+</VBox>
+>>>>>>> ece2fd2004e093364285ef4351e5bb86ec19952b

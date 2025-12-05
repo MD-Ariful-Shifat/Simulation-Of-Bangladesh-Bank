@@ -3,6 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
@@ -73,6 +74,8 @@
     </plugins>
   </build>
 =======
+=======
+>>>>>>> ece2fd2004e093364285ef4351e5bb86ec19952b
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
@@ -132,7 +135,11 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
+<<<<<<< HEAD
                                 com.example.simulation_of_bangladesh_bank/com.example.simulation_of_bangladesh_bank.HelloApplication
+=======
+                                com.example.simulation_of_bangladesh_bank/com.example.simulation_of_bangladesh_bank.saida.Main
+>>>>>>> ece2fd2004e093364285ef4351e5bb86ec19952b
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
@@ -146,5 +153,8 @@
             </plugin>
         </plugins>
     </build>
+<<<<<<< HEAD
 >>>>>>> 38e97a1b5ac1e4b1f63fb0852c111d29fe17f190
+=======
+>>>>>>> ece2fd2004e093364285ef4351e5bb86ec19952b
 </project>
