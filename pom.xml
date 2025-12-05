@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.simulation_of_bangladesh_bank/com.example.simulation_of_bangladesh_bank.HelloApplication
+                                com.example.simulation_of_bangladesh_bank/com.example.simulation_of_bangladesh_bank.saida.Main
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
