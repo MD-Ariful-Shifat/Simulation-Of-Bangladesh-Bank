@@ -2,11 +2,11 @@ package com.example.simulation_of_bangladesh_bank.Sara;
 
 public class ExecuteCurrency_Trade {
 
-    String CurrencyPairs;
-    String TransactionTpe;
-    String Amount;
-    String Rate;
-    String CounterParty;
+    private String CurrencyPairs;
+    private String TransactionTpe;
+    private String Amount;
+    private String Rate;
+    private String CounterParty;
 
 
     public ExecuteCurrency_Trade(String currencyPairs, String transactionTpe, String amount, String rate, String counterParty) {
